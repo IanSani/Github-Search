@@ -15,10 +15,10 @@ export class ApiService {
   }
 
   getUserDetails() {
-    return this.http.get(this.apiUrl + this.userName + "?access_token=" + environment.apiKey)
+    return this.http.get(this.apiUrl + this.userName )
   }
   getRepos() {
-    return this.http.get(this.apiUrl + this.userName + "/repos?access_token=" + environment.apiKey)
+    return this.http.get(this.apiUrl + this.userName )
   }
   updateUserName(userName: string) {
     this.userName = userName;

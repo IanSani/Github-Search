@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { RoutingModule } from "./routing/routing.module"
+import { ApiService } from "./api.service"
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +19,7 @@ import { RepoComponent } from './repo/repo.component';
     StrikethroughDirective,
     DateCountPipe,
     MasterComponent,
-    RepoComponent
+    RepoComponent,
     StrikethroughDirective,
   ],
   imports: [
