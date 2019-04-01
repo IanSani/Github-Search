@@ -17,7 +17,7 @@ export class ApiService {
   getUserDetails() {
     return this.http.get(this.apiUrl + this.userName )
   }
-  getRepos() {
+  getrepos() {
     return this.http.get(this.apiUrl + this.userName )
   }
   updateUserName(userName: string) {
