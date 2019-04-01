@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterModule} from '@angular/router';
+import {RouterModule,Routes} from '@angular/router';
+
 
 import {MasterComponent} from '../master/master.component';
 import {RepoComponent} from '../repo/repo.component';
@@ -16,9 +17,8 @@ const routes:Routes =[
   declarations: [],
   imports: [
     CommonModule,
-    ROuterModule.forRoot(routes)
+    RouterModule.forRoot(routes)
   ],
-  exports:[RoterModule],
-  declarations:[]
+  exports:[RouterModule],
 })
 export class RoutingModule { }
