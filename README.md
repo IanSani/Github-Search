@@ -14,18 +14,35 @@ Install Angular cli
 
 Install nodejs
 
-## Build
+Run a Server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Use a browser to see the contents of the application by use of localhost,specify in your case which you are using.
 
-## Running unit tests
+## Technologies used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular
 
-## Running end-to-end tests
+HTML
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+CSS
 
-## Further help
+BOOTSTRAP
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+NODEJS
+
+
+## Behavior Driven Development
+
+|INPUT|OUTPUT|
+|-----|------|
+|Enter the name on the Search bar | User profile is displayed|
+|Click on the repo in the navbar| All the users repositories are displayed|
+
+
+## Support and Contact Details
+
+For more information on the app or if you may come across any issues you can contact me via email at sani@gmail.com
+
+## Licensing
+
+The application is under MIT licence and is under its terms and conditions.All rights reserved.
