@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { MasterComponent } from './master/master.component';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StrikethroughDirective,
-    DateCountPipe
+    DateCountPipe,
+    MasterComponent,
+    RepoComponent
   ],
   imports: [
     BrowserModule,
