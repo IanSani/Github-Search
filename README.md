@@ -1,14 +1,18 @@
 # GithubSearch
 
+It is an angular application that enables a person to search for github profiles by use of user name and displaying all of the repositories made by the person in the said profile.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
-## Development server
+## List Of Contributors
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ian Sani
 
-## Code scaffolding
+## Setup/Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install Angular cli
+
+Install nodejs
 
 ## Build
 
